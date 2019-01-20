@@ -70,3 +70,13 @@ node.jsが入っている前提です。npm installは適宜--saveや--save-dev�
 * 設定
 
   https://microsoft.github.io/monaco-editor/api/classes/monaco.editor.internaleditoroptions.html#canuselayerhinting
+  
+* ダイアログ関係
+
+  https://qiita.com/ota-meshi/items/b8592dfc230011120c5f
+
+* 見た目関係
+
+  https://qiita.com/nyanchu/items/9a1c910bbca55e9d2f3c
+  
+この場で感謝を。
