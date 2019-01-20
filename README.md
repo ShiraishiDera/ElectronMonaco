@@ -1,7 +1,7 @@
 # ElectronMonaco
 ## これは何？
 最低限のelectronとmonaco-editorでメモ帳を作ってみたものです。
-jsの素人が作っている練習用です。
+js, gitの素人が作っている練習用です。
 ※windowsしか考えていません
 ※パッケージ化までは考えていません。
 
@@ -15,7 +15,10 @@ node.jsが入っている前提です。npm installは適宜--saveや--save-dev�
 6. ./node_modules/.bin/electron .
 
 ## 各タグ・ブランチ
-* initial
+ソースツリーなどで眺める用途
+
+* master: 57e568886c66029c9783c857c6c0c644f4ec0cd1
+
   最低限の実装。monaco-editorでエディタを表示し、ウィンドウによってリサイズする。
 
   動作していることが確認できればいいところ。
@@ -31,9 +34,7 @@ node.jsが入っている前提です。npm installは適宜--saveや--save-dev�
 
   この辺は必要かも。languageはCにするとCの予約文字の色変え。automaticLayoutはたぶんウィンドウ変更したときの挙動、wordWrapは折り返し、themeはテーマ。
 
-  
-
-* menuDev
+* menuDev: cad9600b95cf489b4581de108708bd39be559ece
 
     initialからよくあるファイルメニューと編集メニューを入れる。
 
@@ -41,9 +42,9 @@ node.jsが入っている前提です。npm installは適宜--saveや--save-dev�
 
     とかclick() = {} で遊ぶ。ファイル操作はjs初心者にはわかりにくかったので別にする。
 
-* fileDev
+* ×fileDev: 479c36ad35529b7d54458dabf1f8c9f59eb9367b　
 
-  ファイルをオープンしたり、shift-jisを直したりするところ。
+  ファイルをオープンしたり、shift-jisを直したりするところ。にするつもりがmenuDevにコミットしてしまった。敗因はブランチを切ったときに同時にコミットしなかったこと。
 
 ## パッケージバージョン
 
