@@ -1,7 +1,9 @@
 # ElectronMonaco
 ## これは何？
 最低限のelectronとmonaco-editorでメモ帳を作ってみたものです。
-パッケージ化までは考えていません。
+練習用です。
+※windowsしか考えていません
+※パッケージ化までは考えていません。
 
 ## 使い方
 node.jsが入っている前提です。npm installは適宜--saveや--save-devを使ってください。
@@ -11,3 +13,10 @@ node.jsが入っている前提です。npm installは適宜--saveや--save-dev�
 4. npm install electron
 5. npm install monaco-editor
 6. ./node_modules/.bin/electron .
+
+## 各タグ・ブランチ
+* initial
+最低限の実装。monaco-editorでエディタを表示し、ウィンドウによってリサイズするところまで。
+
+* menuDev
+initialからよくあるファイルメニューと編集メニューを入れるところまで。
