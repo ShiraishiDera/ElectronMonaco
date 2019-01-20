@@ -12,7 +12,8 @@ node.jsが入っている前提です。npm installは適宜--saveや--save-dev�
 3. npm init(mainはmain.jsを指定)
 4. npm install electron
 5. npm install monaco-editor
-6. ./node_modules/.bin/electron .
+6. npm install iconv-lite
+7. ./node_modules/.bin/electron .
 
 ## 各タグ・ブランチ
 ソースツリーなどで眺める用途
