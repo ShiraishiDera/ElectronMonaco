@@ -30,10 +30,11 @@ node.jsが入っている前提です。npm installは適宜--saveや--save-dev�
   language: '',
   automaticLayout: true,
   wordWrap: true,
+  fontSize: 16,
   theme: "vs-dark"
   ```
 
-  この辺は必要かも。languageはCにするとCの予約文字の色変え。automaticLayoutはたぶんウィンドウ変更したときの挙動、wordWrapは折り返し、themeはテーマ。
+  この辺は必要かも。languageはCにするとCの予約文字の色変え。automaticLayoutはたぶんウィンドウ変更したときの挙動、wordWrapは折り返し、fontSizeは普通の大きさならいらないかもしれないけどwindowsの拡大率を変えている環境だと文字がめり込んでいったので明示、themeはテーマいろいろある(と思う)ので調べてみてください。
 
 * menuDev: cad9600b95cf489b4581de108708bd39be559ece
 
