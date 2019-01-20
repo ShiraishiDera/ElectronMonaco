@@ -16,6 +16,7 @@ app.on('window-all-closed', function() {
 app.on('ready', function() {
   mainWindow = new BrowserWindow({width: 800, height: 600});
   mainWindow.loadURL('file://' + __dirname + '/index.html');
+  //mainWindow.webContents.openDevTools();
   initWindowMenu();
   mainWindow.on('closed', function() {
     mainWindow = null;
@@ -29,6 +30,11 @@ function initWindowMenu(){
       label: 'ファイル',
       submenu: 
       [
+        {label: '新規作成', click: function(){mainWindow.webContents.executeJavaScript('saveNewFile()')}},
+        {label: '開く', click: function(){mainWindow.webContents.executeJavaScript('openLoadFile()')}},
+        {label: '保存', click: function(){mainWindow.webContents.executeJavaScript('saveFile()')}},
+        {label: '名前を付けて保存', click: function(){mainWindow.webContents.executeJavaScript('saveNewFile()')}},
+        {type: 'separator'},
         {label: '終了', role: 'close'}
       ]
     },
@@ -49,3 +55,4 @@ function initWindowMenu(){
   const menu = Menu.buildFromTemplate(template);
   Menu.setApplicationMenu(menu);
 }
+

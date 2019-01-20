@@ -1,2 +1,4 @@
 node_modules/
+report/
 *.json
+gruntfile.js
