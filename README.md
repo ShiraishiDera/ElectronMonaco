@@ -3,7 +3,11 @@
 最低限のelectronとmonaco-editorでメモ帳を作ってみたものです。
 js, gitの素人が作っている練習用です。
 ※windowsしか考えていません
-※パッケージ化までは考えていません。
+※パッケージ化までは考えていません
+
+![](C:\work\electron\ElectronMonaco\どんなの.png)
+
+
 
 ## 使い方
 node.jsが入っている前提です。npm installは適宜--saveや--save-devを使ってください。
