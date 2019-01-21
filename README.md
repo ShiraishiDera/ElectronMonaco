@@ -1,6 +1,5 @@
 # ElectronMonaco
 ## これは何？
-<<<<<<< HEAD
 最低限のelectronとmonaco-editorでメモ帳を作ってみたものです。
 js, gitの素人が作っている練習用です。
 ※windowsしか考えていません
@@ -9,14 +8,6 @@ js, gitの素人が作っている練習用です。
 ![](C:\work\electron\ElectronMonaco\どんなの.png)
 
 
-=======
-最低限のelectronとmonaco-editorでメモ帳を作ってみたものです。 
-js, gitの素人が作っている練習用です。  　　
-
-* windowsしか考えていません  
-* パッケージ化までは考えていません
-* ライセンスは依存するものに準じます
->>>>>>> 3706073b58f32f20098b63ce69727041cf066f3b
 
 ## 使い方
 node.jsが入っている前提です。npm installは適宜--saveや--save-devを使ってください。
