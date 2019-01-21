@@ -1,5 +1,6 @@
 # ElectronMonaco
 ## これは何？
+<<<<<<< HEAD
 最低限のelectronとmonaco-editorでメモ帳を作ってみたものです。
 js, gitの素人が作っている練習用です。
 ※windowsしか考えていません
@@ -8,6 +9,14 @@ js, gitの素人が作っている練習用です。
 ![](C:\work\electron\ElectronMonaco\どんなの.png)
 
 
+=======
+最低限のelectronとmonaco-editorでメモ帳を作ってみたものです。 
+js, gitの素人が作っている練習用です。  　　
+
+* windowsしか考えていません  
+* パッケージ化までは考えていません
+* ライセンスは依存するものに準じます
+>>>>>>> 3706073b58f32f20098b63ce69727041cf066f3b
 
 ## 使い方
 node.jsが入っている前提です。npm installは適宜--saveや--save-devを使ってください。
@@ -16,7 +25,8 @@ node.jsが入っている前提です。npm installは適宜--saveや--save-dev�
 3. npm init(mainはmain.jsを指定)
 4. npm install electron
 5. npm install monaco-editor
-6. ./node_modules/.bin/electron .
+6. npm install iconv-lite
+7. ./node_modules/.bin/electron .
 
 ## 各タグ・ブランチ
 ソースツリーなどで眺める用途
@@ -33,10 +43,11 @@ node.jsが入っている前提です。npm installは適宜--saveや--save-dev�
   language: '',
   automaticLayout: true,
   wordWrap: true,
+  fontSize: 16,
   theme: "vs-dark"
   ```
 
-  この辺は必要かも。languageはCにするとCの予約文字の色変え。automaticLayoutはたぶんウィンドウ変更したときの挙動、wordWrapは折り返し、themeはテーマ。
+  この辺は必要かも。languageはCにするとCの予約文字の色変え。automaticLayoutはたぶんウィンドウ変更したときの挙動、wordWrapは折り返し、fontSizeは普通の大きさならいらないかもしれないけどwindowsの拡大率を変えている環境だと文字がめり込んでいったので明示、themeはテーマいろいろある(と思う)ので調べてみてください。
 
 * menuDev: cad9600b95cf489b4581de108708bd39be559ece
 
@@ -70,3 +81,13 @@ node.jsが入っている前提です。npm installは適宜--saveや--save-dev�
 * 設定
 
   https://microsoft.github.io/monaco-editor/api/classes/monaco.editor.internaleditoroptions.html#canuselayerhinting
+  
+* ダイアログ関係
+
+  https://qiita.com/ota-meshi/items/b8592dfc230011120c5f
+
+* 見た目関係
+
+  https://qiita.com/nyanchu/items/9a1c910bbca55e9d2f3c
+  
+この場で感謝を。
